@@ -12,3 +12,13 @@ For those who uses Mac, please follow the instructions below:
 ```sudo su -```
 3. Enable Apache on Mac OS X
 ```apachectl start```
+4. Verify It works! by accessing ```http://localhost```
+5. Enable PHP for Apache
+```vi /etc/apache2/httpd.conf```
+Uncomment the following line (remove #):
+
+```LoadModule php5_module libexec/apache2/libphp5.so```
+
+6. Restart Apache:
+```apachectl restart```
+
