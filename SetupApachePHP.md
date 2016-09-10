@@ -22,4 +22,5 @@ Uncomment the following line (remove #):
 6. Restart Apache:
 ```apachectl restart```
 
-7. To deploy your static app to ```/Library/WebServer/Documents/```
+7. Deploy your static app to ```/Library/WebServer/Documents/```
+8. Deploy the hello.html to the folder at #7
