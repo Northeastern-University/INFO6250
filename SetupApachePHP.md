@@ -23,4 +23,4 @@ Uncomment the following line (remove #):
 ```apachectl restart```
 
 7. Deploy your static app to ```/Library/WebServer/Documents/```
-8. Deploy the hello.html to the folder at #7
+8. Deploy the hello.html file to the folder at #7
