@@ -1,0 +1,11 @@
+sudo su -
+apt-get update
+apt-get install apache2
+apt-get install php
+apt-get install libapache2-mod-php
+apachectl start
+Go to public IP in browser to check whether apache works
+git clone https://github.com/NortheasternUniversity/INFO6250.git
+cd INFO6250/
+cp hello.html /var/www/html 
+Finally, search http://(public IP)/hello.html for result.
