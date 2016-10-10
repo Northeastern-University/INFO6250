@@ -18,15 +18,17 @@
 ```sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/m.info6250.com.conf```
 
 Modify info6250.com.conf
+```
 	ServerName info6250.com
         ServerAdmin admin@info6250.com
         DocumentRoot /var/www/info6250.com/public_html
-
+```
 Modify m.info6250.com.conf
+```
 	ServerName m.info6250.com
         ServerAdmin admin@m.info6250.com
         DocumentRoot /var/www/m.info6250.com/public_html
-
+```
 ```sudo a2ensite info6250.com.conf```
 
 ```sudo a2ensite m.info6250.com.conf```
