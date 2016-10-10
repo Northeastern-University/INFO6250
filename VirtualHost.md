@@ -41,4 +41,4 @@ Configure /etc/hosts
 
 40.124.12.183 info6250.com
 
-Now simply prose to info6250.com and m.info6250.com and see if you got the results you wished for. 
+Now simply browse to info6250.com and m.info6250.com and see if you got the results you wished for. 
