@@ -15,6 +15,7 @@ Add to /etc/apache2/sites-enabled/m.info6250.com.conf
                 AllowOverride All
         </Directory>
 ```
+```
 cat /var/www/info6250.com/public_html/.htaccess 
 <IfModule mod_rewrite.c>
 RewriteEngine On
