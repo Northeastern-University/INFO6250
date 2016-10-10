@@ -15,14 +15,14 @@ Add to /etc/apache2/sites-enabled/m.info6250.com.conf
                 AllowOverride All
         </Directory>
 ```
-carmel@imds:/var/www/info6250.com/public_html$ cat .htaccess 
+cat /var/www/info6250.com/public_html/.htaccess 
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} "android|blackberry|googlebot-mobile|iemobile|ipad|iphone|ipod|opera mobile|palmos|webos" [NC]
 RewriteRule ^$ http://m.info6250.com/ [L,R=302]
 </IfModule>
 
-carmel@imds:/var/www/m.info6250.com/public_html$ cat .htaccess 
+cat /var/www/m.info6250.com/public_html/.htaccess 
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} "!(android|blackberry|googlebot-mobile|iemobile|ipad|iphone|ipod|opera mobile|palmos|webos)" [NC]
