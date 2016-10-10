@@ -1,14 +1,14 @@
 
-```sudo mkdir -p /var/www/info6250.com/public_html```
+```sudo mkdir -p /var/www/info6250.com/```
 
-```sudo mkdir -p /var/www/m.info6250.com/public_html```
+```sudo mkdir -p /var/www/m.info6250.com/```
 
 ```sudo chown -R $USER:$USER /var/www/info6250.com/```
 
 ```sudo chown -R $USER:$USER /var/www/m.info6250.com/```
 
 ```sudo chmod -R 755 /var/www/```
-
+###deploy the application code and config to the new staging area
 ```cp html/m.index.html /var/www/m.info6250.com/```
 
 ```cp html/index.html /var/www/info6250.com/```
@@ -21,13 +21,13 @@ Modify info6250.com.conf
 ```
 	ServerName info6250.com
         ServerAdmin admin@info6250.com
-        DocumentRoot /var/www/info6250.com/public_html
+        DocumentRoot /var/www/info6250.com/
 ```
 Modify m.info6250.com.conf
 ```
 	ServerName m.info6250.com
         ServerAdmin admin@m.info6250.com
-        DocumentRoot /var/www/m.info6250.com/public_html
+        DocumentRoot /var/www/m.info6250.com/
 ```
 ```sudo a2ensite info6250.com.conf```
 
